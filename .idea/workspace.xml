@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86f2ee71-5ffe-4a77-8118-efc4a3dd7faa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/addhost.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/addhost.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh/cfnhost.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/cfnhost.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssh/certsslh.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/certsslh.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/newhost.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/newhost.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xray/ins-xray.sh" beforeDir="false" afterPath="$PROJECT_DIR$/xray/ins-xray.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676804248372</updated>
-      <workItem from="1676804250366" duration="2707000" />
+      <workItem from="1676804250366" duration="6351000" />
     </task>
     <servers />
   </component>

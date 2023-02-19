@@ -61,3 +61,4 @@ sleep 5
 # bash acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key
 # #service squid start
 # sleep 3
+
