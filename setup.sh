@@ -20,7 +20,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Preparation
-apt-get update && apt upgrade -y
+apt-get update && apt-get upgrade -y
 update-grub && sleep 2 && apt-get update -y
 apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1
