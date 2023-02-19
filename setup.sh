@@ -20,21 +20,18 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Preparation
-<<<<<<< HEAD
 apt-get update && apt upgrade -y
 update-grub && sleep 2 && apt-get update -y
 apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1
 apt-get update
 apt-get install -y bzip2 gzip coreutils screen curl unzip
-=======
 apt-get update && apt upgrade -y 
 update-grub && sleep 2 && apt-get update -y 
 apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 
 apt-get update 
-apt-get install -y bzip2 gzip coreutils screen curl unzip 
->>>>>>> a08e81c44111fd01b2b1cda3f52ef0b642096dfe
+apt-get install -y bzip2 gzip coreutils screen curl unzip
 #===========================================
 
 # Link Hosting Kalian Untuk Ssh Vpn
@@ -61,16 +58,16 @@ akbarvpnnnnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-instal
 akbarvpnnnnnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/update"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
-echo "Checking VPS"
-IZIN=$(curl https://raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ipvps.txt | grep $MYIP | awk '{print $3}')
-if [ $MYIP = $MYIP ]; then
-echo -e "${NC}${GREEN}Permission Accepted...${NC}"
-else
-echo -e "${NC}${RED}Permission Denied!${NC}";
-echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/bytesph2023"
-exit 0
-fi
+#echo "Checking VPS"
+#Bytes=$(curl https://raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ipvps.txt | grep $MYIP | awk '{print $3}')
+#if [ $MYIP = $MYIP ]; then
+#echo -e "${NC}${GREEN}Permission Accepted...${NC}"
+#else
+#echo -e "${NC}${RED}Permission Denied!${NC}";
+#echo -e "${NC}${LIGHT}Please Contact Admin!!"
+#echo -e "${NC}${LIGHT}Telegram : https://t.me/bytesph2023"
+#exit 0
+#fi
 clear
 rm -f setup.sh
 clear
