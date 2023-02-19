@@ -34,7 +34,7 @@ echo -e "$BLUE╠➣$NC 5$NC. Cek Service                 $BLUE      ║ "
 echo -e "$BLUE╠➣$NC 6$NC. Exit                        $BLUE      ║ " 
 echo -e "$BLUE║---------------------------------------║"
 echo -e "$BLUE╠➣$NC Mod By LIZSVR                        $BLUE║"
-echo -e "$BLUE╠➣$NC Telegram https://t.me/liz_mine       $BLUE║"
+echo -e "$BLUE╠➣$NC Telegram https://t.me/bytesph2023       $BLUE║"
 echo -e "$BLUE╚═══════════════════════════════════════╝$NC"  
 read -p "Select From Options [ 1 - 6 ] : " menu
 echo -e ""

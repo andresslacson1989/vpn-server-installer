@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/addemail.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backup/addemail.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/autobackup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backup/autobackup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backup/backup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/changesend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backup/changesend.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/limitspeed.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backup/limitspeed.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/restore.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backup/restore.sh" afterDir="false" />
@@ -16,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/backup/stopbackup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backup/stopbackup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/strt.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backup/strt.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/testsend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backup/testsend.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohp/ohp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ohp/ohp.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/addhost.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/addhost.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/addssh.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/addssh.sh" afterDir="false" />
@@ -25,11 +27,14 @@
       <change beforePath="$PROJECT_DIR$/ssh/cekssh.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/cekssh.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/certsslh.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/certsslh.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/cf.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/cf.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssh/cfnhost.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/cfnhost.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/changeport.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/changeport.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/clearlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/clearlog.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/delexp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/delexp.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/delssh.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/delssh.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssh/index.html1" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/index.html1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/member.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/member.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssh/menu.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/menu.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/newhost.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/newhost.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/portovpn.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/portovpn.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/portsquid.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/portsquid.sh" afterDir="false" />
@@ -46,10 +51,12 @@
       <change beforePath="$PROJECT_DIR$/ssh/webmin.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/webmin.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh/xp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/xp.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sslh-fix/sslh-fix.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sslh-fix/sslh-fix.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/getupdate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update/getupdate.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/update/mbackup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update/mbackup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/menu.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update/menu.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/start-menu.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update/start-menu.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/websocket/edu.sh" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/edu.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/websocket/portsshnontls.sh" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/portsshnontls.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket/portsshws.sh" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/portsshws.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676804248372</updated>
-      <workItem from="1676804250366" duration="7091000" />
+      <workItem from="1676804250366" duration="7782000" />
     </task>
     <servers />
   </component>

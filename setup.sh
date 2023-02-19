@@ -7,7 +7,7 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		echo "OpenVZ is not supported"
 		exit 1
 fi
-# My Telegram : https://t.me/Akbar218
+# My Telegram : https://t.me/bytesph2023
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -20,7 +20,6 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Domain
-domain="XXX.XXX.XXX.XXX"
 # Link Hosting Kalian Untuk Ssh Vpn
 akbarvpn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ssh"
 # Link Hosting Kalian Untuk Sstp
@@ -97,7 +96,7 @@ rm -f /root/newhost.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
-Documentation=https://t.me/Akbar218
+Documentation=https://t.me/bytesph2023
 
 [Service]
 Type=oneshot

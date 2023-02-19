@@ -1,6 +1,6 @@
 #!/bin/bash
 # Proxy For Edukasi & Imclass
-# My Telegram : https://t.me/Akbar218
+# My Telegram : https://t.me/bytesph2023
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -21,7 +21,7 @@ echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/liz_mine"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/bytesph2023"
 exit 0
 fi
 clear
@@ -37,7 +37,7 @@ chmod +x /usr/local/bin/ws-nontls
 cat > /etc/systemd/system/ws-nontls.service << END
 [Unit]
 Description=Python Proxy Mod By Akbar Maulana
-Documentation=https://t.me/Akbar218
+Documentation=https://t.me/bytesph2023
 After=network.target nss-lookup.target
 
 [Service]

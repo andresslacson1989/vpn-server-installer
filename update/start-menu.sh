@@ -45,7 +45,7 @@ clear
 # echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"$NC
 # figlet LIZSVR | lolcat
 # #echo -e "$NC"
-# echo -e "Telegram : @liz_mine"
+# echo -e "Telegram : @bytesph2023"
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
 echo -e "$BRED          Informasi System           $NC"
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
