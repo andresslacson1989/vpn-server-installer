@@ -20,12 +20,21 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Preparation
+<<<<<<< HEAD
 apt-get update && apt upgrade -y
 update-grub && sleep 2 && apt-get update -y
 apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1
 apt-get update
 apt-get install -y bzip2 gzip coreutils screen curl unzip
+=======
+apt-get update && apt upgrade -y 
+update-grub && sleep 2 && apt-get update -y 
+apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 
+sysctl -w net.ipv6.conf.default.disable_ipv6=1 
+apt-get update 
+apt-get install -y bzip2 gzip coreutils screen curl unzip 
+>>>>>>> a08e81c44111fd01b2b1cda3f52ef0b642096dfe
 #===========================================
 
 # Link Hosting Kalian Untuk Ssh Vpn
