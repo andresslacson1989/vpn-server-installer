@@ -25,7 +25,7 @@ exit 0
 fi
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/lizsvr/cfnfree/main/backup"
+akbarvpn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/backup"
 
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config

@@ -26,7 +26,7 @@ clear
 # By Akbar Maulana
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/lizsvr/cfnfree/main/ssh"
+akbarvpn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ssh"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
