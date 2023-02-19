@@ -52,7 +52,7 @@ wget https://raw.githubusercontent.com/andresslacson1989/vpn-server-installer/ma
 
  ### Server Information & Other Features
 
-• Timezone                : Asia/Jakarta (GMT +7)
+• Timezone                : Asia/Manila (GMT +8)
 
 • Fail2Ban                : [ON]
 
