@@ -43,7 +43,7 @@ clear
 # echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"$NC
 # echo -e "$BRED           SELAMAT DATANG            $NC"
 # echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"$NC
-# figlet LIZSVR | lolcat
+# figlet BytesPH | lolcat
 # #echo -e "$NC"
 # echo -e "Telegram : @bytesph2023"
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
@@ -130,5 +130,5 @@ fi
 # echo -e " Xray/V2Ray              :$RED [Error] $NC"
 # fi
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
-echo -e "$BRED----------- Mod By LIZSVR -----------"
+echo -e "$BRED----------- Mod By BytesPH -----------"
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"

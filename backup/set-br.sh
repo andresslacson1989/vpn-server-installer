@@ -47,8 +47,8 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user lizsvrbckup@gmail.com
-from lizsvrbckup@gmail.com 
+user bytesph2023@gmail.com
+from bytesph2023@gmail.com
 password yourpaswordapp
 logfile ~/.msmtp.log
 EOF
