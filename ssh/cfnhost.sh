@@ -17,6 +17,7 @@ success="${GREEN}[SUCCESS]${NC}"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
+domain=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 IZIN=$(curl https://raw.githubusercontent.com/lizsvr/cfnfree/main/ipvps.txt | grep $MYIP | awk '{print $3}')
 if [ $MYIP = $MYIP ]; then
@@ -29,10 +30,6 @@ exit 0
 fi
 clear
 
-echo -e "========================="
-read -rp "Masukan Domain/Host : " -e domain
-echo -e "========================="
-echo -e "${success}\nDomain : ${domain} Di Tambahkan.."
 # Delete Files
 rm /var/lib/akbarstorevpn/cfndomain
 # Done

@@ -13,6 +13,7 @@ LIGHT='\033[0;37m'
 # ==========================================
 #Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
+domain=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 IZIN=$(curl https://raw.githubusercontent.com/lizsvr/project/main/ipvps.txt | grep $MYIP | awk '{print $3}')
 if [ $MYIP = $MYIP ]; then
@@ -26,10 +27,8 @@ fi
 error1="${RED}[ERROR]${NC}"
 success="${GREEN}[SUCCESS]${NC}"
 clear
-echo -e "========================="
-read -rp "Masukan Domain/Host : " -e domain
-echo -e "========================="
-echo -e "${success} Please wait..."
+
+
 mkdir -p /usr/bin/xray
 mkdir -p /etc/xray
 echo $domain >> /etc/xray/domain

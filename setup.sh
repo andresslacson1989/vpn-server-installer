@@ -19,6 +19,8 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
+# Domain
+domain="XXX.XXX.XXX.XXX"
 # Link Hosting Kalian Untuk Ssh Vpn
 akbarvpn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ssh"
 # Link Hosting Kalian Untuk Sstp
