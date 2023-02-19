@@ -4,7 +4,7 @@
 wget https://raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
 
-### Fitur Script [ Mod By LIZ ]
+### Fitur Script [ Mod By BytesPH ]
 
 • SSH & OpenVPN
 
