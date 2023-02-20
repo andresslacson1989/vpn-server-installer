@@ -35,27 +35,27 @@ apt-get install -y bzip2 gzip coreutils screen curl unzip
 #===========================================
 
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ssh"
+install="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/sstp"
+installn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ssr"
+installnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/shadowsocks"
+installnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/wireguard"
+installnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/xray"
+installnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ipsec"
+installnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/backup"
+installnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/websocket"
+installnnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ohp"
+installnnnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/ohp"
 # link Hosting update
-akbarvpnnnnnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/update"
+installnnnnnnnnnn="raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/update"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 #echo "Checking VPS"
@@ -77,20 +77,20 @@ exit 0
 fi
 mkdir /var/lib/akbarstorevpn;
 #echo "IP=" >> /var/lib/akbarstorevpn/ipvps.conf
-wget https://${akbarvpn}/newhost.sh && chmod +x newhost.sh && ./newhost.sh
+wget https://${install}/newhost.sh && chmod +x newhost.sh && ./newhost.sh
 sleep 1
 #install v2ray
-wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
+wget https://${installnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
 #install ssh ovpn
-wget https://${akbarvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://${install}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 # Websocket
-wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
+wget https://${installnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 # OphvServer
-wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://${installnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 #Setting Backup
-wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://${installnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 # Update Menu
-wget https://${akbarvpnnnnnnnnnnn}/getupdate.sh && chmod +x getupdate.sh && ./getupdate.sh
+wget https://${installnnnnnnnnnn}/getupdate.sh && chmod +x getupdate.sh && ./getupdate.sh
 # sslh fix
 wget https://raw.githubusercontent.com/andresslacson1989/vpn-server-installer/main/sslh-fix/sslh-fix.sh && chmod +x sslh-fix.sh && ./sslh-fix.sh
 #restart service
@@ -122,7 +122,7 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-wget -O /etc/set.sh "https://${akbarvpn}/set.sh"
+wget -O /etc/set.sh "https://${install}/set.sh"
 chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
